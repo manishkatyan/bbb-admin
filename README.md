@@ -1,2 +1,3 @@
-# bbb-events
-Parse events of a BigBlueButton class
+# bbb-admin
+A collection of scripts that help us run our BigBlueButton servers
+
