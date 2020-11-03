@@ -10,4 +10,4 @@ while read meeting; do
   echo "$meeting $participant_count"
 done < "$MEETINGS"
 
-rm "$MEETHINGS"
+rm "$MEETINGS"
