@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Number of days of recordings for which participants counts need to be extracted
-NUM_DAYS=3
+NUM_DAYS=1
 
 MEETINGS="meeting_file.txt"
 
