@@ -8,4 +8,6 @@ while read meeting; do
   events_xml="/var/bigbluebutton/recording/raw/$meeting/events.xml"
   participant_count=`xmlstarlet sel -t -v '//recording/event[@module="PARTICIPANT"]/name' "$events_xml" | sort --unique | wc -l`
   echo "$meeting $participant_count"
-done < $MEETINGS
+done < "$MEETINGS"
+
+rm "$MEETHINGS"
