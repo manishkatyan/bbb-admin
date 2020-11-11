@@ -15,7 +15,7 @@ find /var/bigbluebutton/recording/raw/ -maxdepth 1 -newerct "2 Nov" ! -newerct "
 ```
 
 Sample Meeting Analytics:
-* Id of raw recording
+* Id of meeting
 * Whether recorded or not
 * bbb-context and bbb-server-name
 * Meeting name
