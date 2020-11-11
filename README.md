@@ -31,6 +31,19 @@ Sample Meeting Analytics:
 ./extract_IP_user_name.sh
 ```
 
+## Get Recording Playback 
+```sh
+./meeting_playback.sh
+```
+
+Sample result:
+* Meeting name and count
+* Start time
+* Size in MB
+* Duration in minute
+* Playback url
+
+
 ## More on BigBlueButton
 
 Check-out the following apps to further extend features of BBB.
