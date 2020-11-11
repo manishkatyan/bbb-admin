@@ -1,7 +1,7 @@
 # bbb-admin
 A collection of scripts that help us run our BigBlueButton servers
 
-## Meeting Summary
+## Meeting Analytics
 
 ```sh
 # pass the most recent 10 meetings to get their summary
@@ -13,6 +13,16 @@ ls -ltr /var/bigbluebutton/recording/raw/ | tail -n 2 | awk '{print $9}' | xargs
 # get the summary of meetings conducted on 2 Nov
 find /var/bigbluebutton/recording/raw/ -maxdepth 1 -newerct "2 Nov" ! -newerct "3 Nov" -printf "%f\n" | xargs  -l ./meeting_summary.sh 
 ```
+
+Sample Meeting Analytics:
+* Id of raw recording
+* Whether recorded or not
+* bbb-context and bbb-server-name
+* Meeting name
+* Unique participant count
+* Meeting start time
+* Meeting end time
+* List of participants with their name, role (Viewer | Moderator) and join time
 
 ## Extract Users' IPs
 
