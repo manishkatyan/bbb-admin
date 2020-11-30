@@ -1,6 +1,5 @@
 # bbb-admin
-A collection of scripts that help us run our BigBlueButton servers
-
+A collection of scripts for BigBlueButton admins including extracting IP of users joining, participants attendance and poll answers.
 ## Meeting Analytics
 
 ```sh
