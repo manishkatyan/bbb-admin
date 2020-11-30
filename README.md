@@ -30,9 +30,9 @@ ruby meeting_poll.rb sample_events_poll.xml
 ```
 `meeting_poll.rb` will extract polls answers from the given `events.xml`. The output is in JSON format that you can export and use are per your requirements. 
 
-First you should find out `internal-meeting-id` of the meeting for which you wanto extract poll analytics. 
+First you should find out `<internal-meeting-id>` of the meeting for which you want to extract poll analytics. 
 
-Next, find out corresponding `events.xml` for the given `internal-meeting-id` from the following location `/var/bigbluebutton/recording/raw/<internal-meeting-id>/events.xml`.
+Next, find out corresponding `events.xml` for the given `<internal-meeting-id>` from the following location `/var/bigbluebutton/recording/raw/<internal-meeting-id>/events.xml`.
 
 Lastly, run the script as shown above `ruby meeting_poll.rb events.xml`.
 
