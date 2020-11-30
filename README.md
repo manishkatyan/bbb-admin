@@ -24,6 +24,20 @@ Sample Meeting Analytics:
 * Meeting end time
 * List of participants with their name, role (Viewer | Moderator) and join time
 
+## Meeting Polls
+```sh
+ruby meeting_poll.rb sample_events_poll.xml
+```
+`meeting_poll.rb` will extract polls answers from the given `events.xml`. The output is in JSON format that you can export and use are per your requirements. 
+
+First you should find out `internal-meeting-id` of the meeting for which you wanto extract poll analytics. 
+
+Next, find out corresponding `events.xml` for the given `internal-meeting-id` from the following location `/var/bigbluebutton/recording/raw/<internal-meeting-id>/events.xml`.
+
+Lastly, run the script as shown above `ruby meeting_poll.rb events.xml`.
+
+For reference, I have included a sample `events.xml` which is having some poll data. Upon executing, you will see users' data with their polls responses in JSON format.
+
 ## Extract Users' IPs
 
 ```sh
