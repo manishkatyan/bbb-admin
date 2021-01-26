@@ -2,7 +2,7 @@
 MEETING_ID=$1
 
 PUBLISHED_DIR="/mnt/scalelite-recordings/var/bigbluebutton/published/presentation/"
-CLIENT_MOODLE_SERVER="mahamyakywuntha.com"
+CLIENT_MOODLE_SERVER="DOMAIN_NAME"
 
 if [[ -n $(find "$PUBLISHED_DIR" -maxdepth 1 -printf "%f\n" | grep -w "$MEETING_ID") ]]
 then
