@@ -56,6 +56,15 @@ Sample result:
 * Duration in minute
 * Playback url
 
+## Get Recording Size
+```sh
+ls -ltr /mnt/scalelite-recordings/var/bigbluebutton/published/presentation/ | awk '{print $9}' | xargs  -l ./bbb-analytics-recording.sh
+```
+Sampple result:
+* Meeting Id
+* Size in MB/KB
+
+You can set `CLIENT_MOODLE_SERVER` to the domain of the Moodle (or any other) server from where the BBB Meetings are created. You can find this value from metadata.xml > meta > bbb-origin-server-name of any recording.  
 
 ## More on BigBlueButton
 
