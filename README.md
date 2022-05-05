@@ -66,6 +66,17 @@ Sampple result:
 
 You can set `CLIENT_MOODLE_SERVER` to the domain of the Moodle (or any other) server from where the BBB Meetings are created. You can find this value from metadata.xml > meta > bbb-origin-server-name of any recording.  
 
+## [BigBlueButton Tech Support](https://higheredlab.com/bigbluebutton-support/)
+### Are you facing difficulties with your BigBlueButton server?
+Lean on our expertise to smoothly run your BigBlueButton server. We can: 
+1. troubleshoot your BigBlueButton servers to improve audio and video performance,
+1. install additional features such as streaming, mp4 recordings and attendance, and
+1. provide managed BigBlueButton servers, starting at $12 per month
+
+[Click here to learn more](https://higheredlab.com/bigbluebutton-support/)
+
+
+
 ## More on BigBlueButton
 
 Check-out the following apps to further extend features of BBB.
