@@ -4,7 +4,7 @@ A collection of scripts for BigBlueButton admins including extracting IP of user
 
 ```sh
 # pass the most recent 10 meetings to get their summary
-ls -ltr /var/bigbluebutton/recording/raw/ | tail -n 2 | awk '{print $9}' | xargs  -l ./meeting_analytics.sh
+ls -1tr /var/bigbluebutton/recording/raw/ | tail -n 10 | xargs  -l ./meeting_analytics.sh
 
 # pass individual meeting to get its summary
 ./meeting_analytics.sh <meeting-id>
