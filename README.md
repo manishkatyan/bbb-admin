@@ -1,4 +1,4 @@
-# bbb-admin
+# BigBlueButton Admin
 A collection of scripts for BigBlueButton admins including extracting IP of users joining, participants attendance and poll answers.
 ## Meeting Analytics
 
